@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative 'builder/kotlin_builder'
+KotlinBuilder.new.command_line(ARGV)
